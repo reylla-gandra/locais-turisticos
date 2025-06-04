@@ -1,17 +1,25 @@
 #page {
     max-width: 1120px;
     margin-inline: auto;
-}
 
-header {
-    img {
+
+    header {
+        img {
         border-radius: 2.8rem;
         margin-bottom: 2.4rem;
         height: 66rem;
-    }
+        }
 
-    p {
+        p {
         font-style: italic;
         text-align: center;
+        }
+    }
+
+    .divider {
+        height: 1px;
+        background: var(--border-primary);
+        margin-block: 4rem;
+
     }
 }
